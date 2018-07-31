@@ -51,7 +51,7 @@ h2{
 	padding-left:10px;
 }
 a:link, a:visited, a:active {
-	color:#665E4C;
+	color:#E82E21;
 }
 
 a:hover {color:#E82E21;}
@@ -598,6 +598,7 @@ li form {
 .front H1{
 	font-size:18px;
 	/*color:#E82E21;*/
+	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 	line-height:1.3;
 	text-transform:none;
 	padding-top:15px;
@@ -652,6 +653,8 @@ li form {
     line-height:110%;
     padding:0 0 5px 0;
     margin:0 0 5px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid lightgray;
     
 }
 
