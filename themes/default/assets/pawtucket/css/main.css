@@ -13,9 +13,6 @@ body {
 	color:#454545;
 	margin-bottom:80px; 
 }
-b, strong{
-	font-family: Lato;
-}
 a, a:hover {
 	color:#19bed1;
 }
@@ -309,7 +306,7 @@ h1 i {
 	-webkit-transition: none;
 		  transition: none;
 	background-color:transparent;
-	font-family:Lato;
+	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 .navbar .form-control:focus {
 	border: 0px;
@@ -325,8 +322,6 @@ h1 i {
 .navbar .formOutline{
 	border: 1px solid #cccccc;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 	position:relative;
 	border-radius: 3px;
@@ -420,7 +415,7 @@ h1 i {
     border-radius: 0px;
     letter-spacing: 1px;
     color: #fff;
-    font-family:Lato;
+    font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 .btn-default a{
 	color: #fff;
@@ -808,8 +803,7 @@ a.browseRemoveFacet img {
 	bottom:0;
 	width:100%;
 	height:80px;
-	padding: 0px 15px 0px 15px;
-	font-family:lato;
+	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 @media (min-width: 768px) {
 	#footer {
@@ -1387,6 +1381,7 @@ a.browseRemoveFacet img {
 .frontSlide img{
 	height:400px;
 	width:auto;
+	padding: 10px;
 }
 .front a.jcarousel-control-prev, .front a.jcarousel-control-next{
 	text-decoration:none;
@@ -1645,7 +1640,7 @@ a.browseRemoveFacet img {
 	clear:both;
 	padding-top:10px;
 	margin-top:30px;
-	font-family:lato;
+	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 .detail .detailTool {
 	color: #858585;
@@ -1658,6 +1653,7 @@ a.browseRemoveFacet img {
 .detail .detailTool span, .detail .detailTool i{
 	color:#929292;
 	margin-right:5px;
+	padding-top: 15px;
 }
 .detail .detailTool a{
 	text-decoration:none;
@@ -1841,6 +1837,7 @@ a.browseRemoveFacet .glyphicon {
 #bSortByList{
 	float:right;
 	margin-top:5px;
+	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 #bSortByList ul {
 	list-style-type:none;
@@ -2205,7 +2202,7 @@ a.browseRemoveFacet .glyphicon {
 }
 
 .browse .btn, .sets .btn {
-	background-color:#19bed1;
+	background-color:#aba8a8;
 	font-size:10px;
 	color:#fff;
 	margin-left:5px;
