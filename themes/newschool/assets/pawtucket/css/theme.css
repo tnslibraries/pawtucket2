@@ -777,11 +777,10 @@ li form {
     line-height:125%;
 }
 #bSortByList{
-	font-family:arial;
+	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 	text-transform:uppercase;
 }
 #bSortByList ul li{
-	font-size:11px;
 	font-weight:normal;
 }
 #bSortByList ul li.selectedSort{
