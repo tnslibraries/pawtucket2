@@ -10,9 +10,11 @@ setup.php
 *.un~
 *.sublime-*
 *.swp
+app/tmp/.*
+app/tmp/*.*
 app/lib/core/Parsers/htmlpurifier/standalone/HTMLPurifier/DefinitionCache/Serializer/*
 app/lib/core/Parsers/dompdf/lib/fonts/*fm.php
-
+vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/URI/
 vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/HTML/*
 vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/HTML/*.*
 /admin
