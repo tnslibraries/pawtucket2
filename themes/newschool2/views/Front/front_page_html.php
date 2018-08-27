@@ -34,8 +34,6 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-7">
-			<H1 id="construction">This site is currently undergoing maintenance and access to PDF files is temporarily unavailable. If you require assistance, or would like a PDF file emailed to you, please contact <a href="mailto:archivist@newschool.edu">archivist@newschool.edu</a></H1>
-			
 			<H1>The New School Archives Digital Collections presents images, text, audio and video from <a href=http://library.newschool.edu/archives>The New School Archives & Special Collections</a>, home to primary source materials documenting the history of all divisions of The New School.</H1> 	
 		</div><!--end col-sm-7-->
 		<div class="col-sm-1"></div>
