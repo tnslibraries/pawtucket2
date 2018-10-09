@@ -26,7 +26,7 @@
 		$va_transcript = array_shift($va_transcript);
 		$vn_transcript_rep_id = $va_transcript["representation_id"];
 		$va_doc_media_display_info = caGetMediaDisplayInfo('detail', $va_transcript["mimetype"]);
-		$vs_transcript_link = "<a href='#' onclick='caMediaPanel.showPanel(\"".caNavUrl($this->request, '', 'Detail', 'GetRepresentationInfo', array('object_id' => $t_object->get("object_id"), 'representation_id' => $vn_transcript_rep_id, 'overlay' => 1))."\"); return false;' title='"._t("Transcript")."'><i class='fa fa-file-text-o'></i> TRANSCRIPT</a>\n";
+		$vs_transcript_link = "<a href='#' onclick='caMediaPanel.showPanel(\"".caNavUrl($this->request, '', 'Detail', 'GetMediaOverlay', array('context' => 'objects', 'object_id' => $t_object->get("ca_objects.object_id"), 'representation_id' => $vn_transcript_rep_id, 'overlay' => 1))."\"); return false;' title='"._t("Transcript")."'><i class='fa fa-file-text-o'></i> TRANSCRIPT</a>\n";
 	}
 ?>
 <div class="row">
@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="row">
 				<div class='col-sm-12 col-md-6 col-lg-6'>
-					<H1>{{{<unit relativeTo="ca_collections" delimiter="_➔_"><l>^ca_collections.hierarchy.preferred_labels.name</l></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
+					<H1>{{{<unit relativeTo="ca_collections" delimiter=" ➔ "><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.hierarchy.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
 				</div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row">
