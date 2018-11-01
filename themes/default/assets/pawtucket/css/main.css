@@ -2419,7 +2419,7 @@ a.browseRemoveFacet .glyphicon {
 	letter-spacing:1px;
 }
 .multisearch .pull-right {
-	font-family:lato;
+	font-family: arial;
 }
 @media (max-width:500px) {
 	.jumpLinks, .sortValues {
