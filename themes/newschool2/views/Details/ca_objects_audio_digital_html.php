@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="row">
 				<div class='col-sm-12 col-md-6 col-lg-6'>
-					<H1>{{{<unit relativeTo="ca_collections" delimiter=" ➔ "><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.hierarchy.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
+					<H1>{{{<unit delimiter=" ➔ " relativeTo="ca_collections"><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
 				</div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row">
