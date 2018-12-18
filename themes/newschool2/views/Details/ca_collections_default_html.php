@@ -12,7 +12,7 @@
 		</div><!-- end col -->
 		<div class='col-xs-10 col-sm-10 col-md-10 col-lg-10'>
 			<div class="container"><div class="row"><div class='col-md-12 col-lg-12'>
-				<H1>{{{<unit relativeTo="ca_collections" delimiter=" ➔ ">^ca_collections.hierarchy.preferred_labels.name%returnAsLink=1</unit>}}} {{{<unit>^ca_collections.CollectionDate.collectionDate_expression</unit>}}}</H1>
+				<H1>{{{<unit relativeTo="ca_collections.hierarchy" delimiter=" ➔ ">^ca_collections.preferred_labels.name%returnAsLink=1</unit>}}} {{{<unit>^ca_collections.CollectionDate.collectionDate_expression</unit>}}}</H1>
 				<H2>{{{^ca_collections.type_id}}}{{{<ifdef code="ca_collections.idno">, ^ca_collections.idno</ifdef>}}}</H2>
 				
 				<H2>{{{<unit delimiter='<br/>' relativeTo="ca_collections.children" sort="ca_collections.idno"><l>^ca_collections.preferred_labels.name </l> ^ca_collections.CollectionDate.collectionDates_text</unit>}}}</H2>
@@ -33,7 +33,7 @@
 					{{{<ifdef code="ca_collections.CollectionNote.NoteContent%[NoteType=related_archival_materials]"><H3>Related Archival Materials Note</H3>^ca_collections.CollectionNote.NoteContent%[NoteType=related_archival_materials]<br/></ifdef>}}}					
 					{{{<ifcount code="ca_collections.related" min="1" max="1"><h3>Related collection</h3></ifcount>}}}
 					{{{<ifcount code="ca_collections.related" min="2"><h3>Related collections</h3></ifcount>}}}
-					{{{<unit relativeTo="ca_collections.related" delimiter="<br/>"><l>^ca_collections</l></unit><br/><br/>}}}
+					{{{<unit relativeTo="ca_collections.related" delimiter="<br/>"><l>^ca_collections.preferred_labels.name</l></unit><br/><br/>}}}
 					
 
 				</div><!-- end col -->
@@ -43,7 +43,7 @@
 					{{{<ifcount code="ca_entities" min="1" max="1"><H3>Related person/organization</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="2"><H3>Related people/organizations</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="1"><unit relativeTo="ca_entities" delimiter="<br/>" sort="ca_entity_labels.surname;ca_entity_labels.forename"><l>^ca_entities.preferred_labels</l></unit></ifcount>}}}
-					{{{<ifcount code="ca_objects.LcshTopical" min="1"><h3>Subject Heading</h3>^ca_objects.lcshfull</ifcount>}}}
+					{{{<ifcount code="ca_collections.LcshTopical" min="1"><h3>Subject Heading</h3>^ca_collections.LcshTopical</ifcount>}}}
 					<p><strong>There’s more!</strong> What you see here is only what is viewable online; in most cases it is only a small portion of what is available.
 					Please visit the collection guide to find out more.
 					</p>					

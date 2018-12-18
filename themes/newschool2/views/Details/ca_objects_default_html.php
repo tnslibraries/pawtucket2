@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <?php
 	$t_object = $this->getVar("item");
 	$va_comments = $this->getVar("comments");
@@ -27,14 +28,14 @@
 			</div><!-- end col -->
 			
 			<div class='col-sm-6 col-md-6 col-lg-6'>
-				<H1>{{{<unit delimiter=" ➔ " relativeTo="ca_collections"><l>^ca_collections.hierarchy.preferred_labels.name</l></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
+				<H1>{{{<unit delimiter=" ➔ " relativeTo="ca_collections"><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
 					<H2>{{{<unit>^ca_objects.type_id</unit>}}}</H2>
 					<HR>
 					
 					{{{<ifdef code="ca_objects.nonpreferred_labels.name"><H3>Alternate Title</H3>^ca_objects.nonpreferred_labels.name</ifdef>}}}
 					{{{<ifcount code="ca_entities" min="1" max="1"><H3>Related person/organization</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="2"><H3>Related people/organizations</H3></ifcount>}}}
-					{{{<ifcount code="ca_entities" min="1"><unit relativeTo="ca_objects_x_entities" delimiter="<br/>"><unit relativeTo="ca_entities"><l>^ca_entities.preferred_labels</l></unit> (^relationship_typename)</unit></ifcount>}}}
+					{{{<ifcount code="ca_entities" min="1"><unit relativeTo="ca_entities" delimiter="<br/>"><l>^ca_entities.preferred_labels</l> (^relationship_typename)</unit></ifcount>}}}
 					{{{<ifdef code="ca_objects.dateSet.setDisplayValue"><H3>Date</H3>^ca_objects.dateSet.setDisplayValue<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.pbcoreDate.pbcoreDates_value"><H3>Date</H3>^ca_objects.pbcoreDate.pbcoreDates_value<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtDrawings"><H3>Work Type</H3>^ca_objects.wtDrawings<br/></ifdef>}}}
@@ -55,8 +56,7 @@
 					{{{<ifdef code="ca_objects.wtThree"><H3>Work Type</H3>^ca_objects.wtThree<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtOther"><H3>Work Type</H3>^ca_objects.wtOther<br/></ifdef>}}}
 					
-					{{{<ifdef code="ca_objects.measurementSet.measurements"><H3>Measurements</H3>^ca_objects.measurementSet.measurements (^ca_objects.measurementSet.measurementsType)</ifdef><ifdef code="ca_objects.measurementSet.measurements,ca_objects.measurementSet.measurements"> x </ifdef><ifdef code="ca_objects.measurementSet.measurements2">^ca_objects.measurementSet.measurements2 (^ca_objects.measurementSet.measurementsType2)</ifdef>}}}
-					
+					{{{<ifdef code="ca_objects.measurementSet.measurements"><H3>Measurements</H3>^ca_objects.measurementSet.measurements <ifdef code="ca_objects.measurementSet.measurementsType">(^ca_objects.measurementSet.measurementsType)</ifdef></ifdef><ifdef code="ca_objects.measurementSet.measurements"> x </ifdef><ifdef code="ca_objects.measurementSet.measurements2">^ca_objects.measurementSet.measurements2 <ifdef code="ca_objects.measurementSet.measurementsType2">(^ca_objects.measurementSet.measurementsType2)</ifdef></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.descriptionSet.descriptionText"><H3>Description</H3>^ca_objects.descriptionSet.descriptionText<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.pbcoreDescription.pBdescription_text"><H3>Description</H3>^ca_objects.pbcoreDescription.pBdescription_text<br/></ifdef>}}}
@@ -68,9 +68,14 @@
 					{{{<unit delimiter="<br/>">^ca_objects.LcshTopical</unit>}}}
 
 					{{{<ifcount code="ca_list_items" min="1" max="30"><h3>Related Terms</h3></ifcount>}}}
-					{{{<unit delimiter="<br/>">^ca_list_items.preferred_labels</unit>}}}
-					
-					
+<?php
+    if (is_array($terms = $t_object->get('ca_list_items.preferred_labels.name_plural', ['returnAsArray' => true])) && sizeof($terms)) {
+        foreach($terms as $term) {
+            print caNavLink($this->request, $term, '', '', 'Search', 'objects', ['search' => $term])."<br/>\n";
+        }
+    }
+?>
+				 	
 					{{{<ifdef code="ca_objects.containerID"><H3>Location</H3>^ca_objects.containerID<br/></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.idno"><H3>Identifier</H3>^ca_objects.idno<br/></ifdef>}}}
