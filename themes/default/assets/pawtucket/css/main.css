@@ -35,13 +35,16 @@ H1, h1{
 H1 .btn-group{
 	text-transform:none;
 }
+	h2.front {
+		margin-left: 25px;
+}
 H2, h2{
 	font-size: 18px;
 	color:#19bed1;
 }
+
 H3, h3{
-	font-size: 16px;
-	text-transform:uppercase;
+	font-size: 24px;
 	color:#333333;
 }
 H4, h4{
@@ -62,6 +65,11 @@ H6, h6{
 	padding-bottom:0px;
 	margin:10px 0px 5px 0px;
 }
+H7, h7{
+	padding-top:2px;
+
+}
+
 .caption {
 	font-size:11px; 
 	color:#999;
@@ -795,14 +803,11 @@ a.browseRemoveFacet img {
 /* --------------------------------- */
 #footer{
 	/*margin:40px 0px 65px 0px;*/
-	border-top: 1px solid #E3E3E3;
-	font-size:12px;
+	font-size:16px;
+	text-align: center;
 	color: #ababab;
-	line-height:2.2em;
-	position:absolute;
 	bottom:0;
-	width:100%;
-	height:80px;
+	padding-top: 50px;
 	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 @media (min-width: 768px) {
@@ -1353,10 +1358,7 @@ a.browseRemoveFacet img {
 		padding-top:15px;
 	}
 }
-.front .jcarousel-wrapper{
-	margin-bottom:20px;
-	margin-top:-20px;
-}
+
 .front .jcarousel-control-prev {
     left: 0px !important;
 }
@@ -1381,7 +1383,6 @@ a.browseRemoveFacet img {
 .frontSlide img{
 	height:400px;
 	width:auto;
-	padding: 10px;
 }
 .front a.jcarousel-control-prev, .front a.jcarousel-control-next{
 	text-decoration:none;
@@ -1569,7 +1570,7 @@ a.browseRemoveFacet img {
 .detail .repViewerCont img{
 	width:100%;
 	height:auto;
-	max-height: 500px;
+	max-height: 400px;
     object-fit: contain;
 }
 .detail .unit {
@@ -1619,7 +1620,7 @@ a.browseRemoveFacet img {
 }
 .detail #detailRepNav{
 	padding:2px 0px 7px 0px;
-	font-size:12px;
+	font-size:20px;
 }
 .detail #detailRepNavPrev{
 	float:left;
@@ -1774,7 +1775,7 @@ a.browseRemoveFacet img {
     height: auto;
     margin: 0px 0;
     padding: 5px;
-    width: 100%;
+    width: 60%;
 }
 #detailRepresentationThumbnails a.active img{
 	background-color: #efefef;
@@ -1801,7 +1802,7 @@ a.readmore-js-toggle{
 .results strong, .sets H5 strong {
 	color:#000;
 	text-transform:uppercase;
-	font-size:12px;
+	font-size:13px;
 	font-weight:normal;
 }	
 .results a .glyphicon, .results a .fa {
@@ -1845,7 +1846,7 @@ a.browseRemoveFacet .glyphicon {
 	padding:0px;
 }
 #bSortByList ul li{
-	font-size:12px;
+	font-size:13px;
 	display:inline-block;
 	margin:0px 5px 0px 0px;
 }
@@ -2530,7 +2531,7 @@ a.browseRemoveFacet .glyphicon {
 /* gallery */
 /*------------------------------------------*/
 .gallery {
-	font-size:12px;
+	font-size:16px;
 }
 .gallery H4, .gallery H4 a {
 	padding-top:5px;
@@ -2632,7 +2633,7 @@ a.browseRemoveFacet .glyphicon {
 }
 @media (min-width: 768px) {
   	.gallery #galleryDetailImageArea {
-		height:430px;
+		padding:35px;
   	}
 	.gallery #galleryDetailImageArea img{
 		max-height:430px;
@@ -2675,10 +2676,11 @@ a.browseRemoveFacet .glyphicon {
 }
 .gallery #galleryDetailObjectInfo{
 	padding-top:10px;
-	line-height:1.8em;
+	line-height:1.4em;
 }
 .gallery #galleryDetailImageGrid{
 	min-height:300px;
+	display: none;
 }
 .gallery #galleryDetailImageGrid img{
 	width:100%;

@@ -30,7 +30,7 @@
  * ----------------------------------------------------------------------
  */
 ?>
-		<h2>Browse selections from featured topics:</h2>
+		<h1>Browse selections from featured topics:</h1>
 <?php
 		print caGetGallerySetsAsList($this->request, "nav nav-pills nav-stacked");
 ?>

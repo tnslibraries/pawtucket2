@@ -70,7 +70,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 dfn {
@@ -390,7 +390,7 @@ hr {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0px;
 }
 
 .lead {
@@ -746,8 +746,6 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -940,7 +938,8 @@ pre code {
     width: 25%;
   }
   .col-sm-4 {
-    width: 33.33333333333333%;
+    width: 100%;
+    padding: 0px;
   }
   .col-sm-5 {
     width: 41.66666666666667%;
@@ -949,7 +948,7 @@ pre code {
     width: 50%;
   }
   .col-sm-7 {
-    width: 58.333333333333336%;
+    width: 100%;
   }
   .col-sm-8 {
     width: 66.66666666666666%;
@@ -1234,6 +1233,11 @@ pre code {
   .container {
     max-width: 1170px;
   }
+  .object-container {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+  }
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -1264,6 +1268,9 @@ pre code {
   }
   .col-lg-6 {
     width: 50%;
+  }
+  #object-container {
+    width: 100%;
   }
   .col-lg-7 {
     width: 58.333333333333336%;
@@ -1363,9 +1370,6 @@ pre code {
   }
   .col-lg-offset-2 {
     margin-left: 16.666666666666664%;
-  }
-  .col-lg-offset-3 {
-    margin-left: 25%;
   }
   .col-lg-offset-4 {
     margin-left: 33.33333333333333%;
@@ -4015,7 +4019,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 
