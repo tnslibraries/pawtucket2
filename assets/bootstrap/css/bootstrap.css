@@ -300,9 +300,9 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.5;
   color: #333333;
   background-color: #ffffff;
 }
@@ -391,6 +391,7 @@ hr {
 
 p {
   margin: 0px;
+  font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 }
 
 .lead {
@@ -464,7 +465,7 @@ h6,
 .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 h1 small,
@@ -746,6 +747,8 @@ pre code {
 }
 
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1238,6 +1241,15 @@ pre code {
     min-height: 1px;
     width: 100%;
   }
+    .topics-container {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+  }
+
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,

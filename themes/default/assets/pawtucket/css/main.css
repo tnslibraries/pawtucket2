@@ -9,7 +9,7 @@ html {
     min-height: 100%;
 }
 body {
-	font-family: LatoLight;
+  	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
 	color:#454545;
 	margin-bottom:80px; 
 }
@@ -214,13 +214,7 @@ h1 i {
 .navbar-collapse{
 	-webkit-box-shadow: none;
 	box-shadow: none;
-}
-@media (min-width: 768px){
-	.navbar-collapse{
- 		padding-right:0;
-		padding-left:0;
-	}
-}
+} 
 .navbar.active {
 	font-weight:normal;
 }
@@ -1890,7 +1884,7 @@ a.browseRemoveFacet .glyphicon {
 	height:290px;
 }
 .bResultItemContent {
-	height:240px;
+	height:260px;
 	overflow:hidden;
 }
 .bResultItem {
@@ -2179,7 +2173,7 @@ a.browseRemoveFacet .glyphicon {
 }
 .bResultListItem .bResultListItemText{
 	line-height:1.2em;
-	font-size:12px;
+	font-size:14px;
 }
 .bResultListItem .bResultListItemText small, .bResultListItem .bResultListItemText small a{
 	color:#ababab;

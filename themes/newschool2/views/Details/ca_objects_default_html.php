@@ -75,7 +75,9 @@
 				 	
 					{{{<ifdef code="ca_objects.containerID"><H3>Location</H3>^ca_objects.containerID<br/></ifdef>}}}
 					
-					{{{<ifdef code="ca_objects.Language"><H3>Language</H3>^ca_objects.languages<br/></ifdef>}}}
+					{{{<ifdef code="ca_objects.pbcoreLanguage"><H3>Language</H3>^ca_objects.pbcoreLanguage<br/></ifdef>}}}
+
+					{{{<ifdef code="ca_objects.pbcoreFormatDuration"><H3>Duration</H3>^ca_objects.pbcoreFormatDuration<br/></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.idno"><H3>Identifier</H3>^ca_objects.idno<br/></ifdef>}}}
 					
