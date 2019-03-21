@@ -77,8 +77,6 @@
 					
 					{{{<ifdef code="ca_objects.pbcoreLanguage"><H3>Language</H3>^ca_objects.pbcoreLanguage<br/></ifdef>}}}
 
-					{{{<ifdef code="ca_objects.pbcoreFormatDuration"><H3>Duration</H3>^ca_objects.pbcoreFormatDuration<br/></ifdef>}}}
-					
 					{{{<ifdef code="ca_objects.idno"><H3>Identifier</H3>^ca_objects.idno<br/></ifdef>}}}
 					
 					{{{<h3>Citation</h3><unit relativeTo="ca_entities" restrictToRelationshipTypes="architect,artist,sculptor,author,compiler,designer,cartographer,composer,filmmaker,interviewee,interviewer,photographer,publisher" delimiter="; ">^ca_entities.preferred_labels.displayname</unit><ifcount code="ca_entities" restrictToRelationshipTypes="architect,artist,sculptor,author,compiler,designer,cartographer,composer,filmmaker,interviewee,interviewer,photographer,publisher" min="1">. </ifcount><i><unit>^ca_objects.preferred_labels.name</unit>. </i><ifdef code="ca_objects.dateSet.setDisplayValue"><unit>^ca_objects.dateSet.setDisplayValue</unit>. </ifdef><ifcount code="ca_collections" min="1" max="1"><unit>^ca_collections.hierarchy.preferred_labels.name</unit>. </ifcount><i>New School Archives and Special Collections Digital Archive</i>. Web. <font>^DATE</font>.}}}
