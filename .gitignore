@@ -1,5 +1,3 @@
-.gitBak/*
-/.gitBak
 /nbproject/*
 app/tmp/*
 setup.php
