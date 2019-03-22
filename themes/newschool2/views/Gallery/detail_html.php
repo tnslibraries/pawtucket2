@@ -9,13 +9,13 @@
 <div class="container">
 <?php
 		if($vs_description = $this->getVar("description")){
-			print '<div class="row"><div class="col-sm-12 col-md-12 col-lg-8">';
+			print '<div class="row"><div class="object-container">';
 			print "<H2>".$vs_description."</H2>";
 			print '</div></div><!-- end row -->';
 		}
 ?>
 	<div class="row">
-		<div class="col-sm-8"><div id="galleryDetailImageArea">
+		<div class="object-container"><div id="galleryDetailImageArea">
 			image here
 		</div><!-- end galleryDetailImageArea --></div><!--end col-sm-8-->
 		<div class="col-sm-4" id="galleryDetailObjectInfo"> </div>
