@@ -74,13 +74,7 @@
 					{{{<ifcount code="ca_entities" min="1" max="1"><H3>Related person/organization</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="2"><H3>Related people/organizations</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="1"><unit relativeTo="ca_objects_x_entities" delimiter="<br/>"><unit relativeTo="ca_entities"><l>^ca_entities.preferred_labels</l></unit> (^relationship_typename)</unit></ifcount>}}}
-					{{{<ifdef code="ca_objects.pbcoreDate.pbcoreDates_value"><H3>Date</H3>^ca_objects.pbcoreDate.pbcoreDates_value<br/></ifdef>}}}
-					{{{<ifcount code="ca_objects.LcshTopical" min="1" max="1"><H3>Subject Heading</H3></ifcount>}}}
-					{{{<ifcount code="ca_objects.LcshTopical" min="2"><H3>Subject Headings</H3></ifcount>}}}
-					{{{<unit delimiter="<br/>">^ca_objects.LcshTopical</unit>}}}
-					{{{<ifcount code="ca_objects.LcshNames" min="1" max="1"><H3>Term:</H3></ifcount>}}}
-					{{{<ifcount code="ca_objects.LcshNames" min="2"><H3>Terms:</H3></ifcount>}}}
-					{{{<unit delimiter="<br/>">^ca_objects.LcshNames</unit>}}}				
+					{{{<ifdef code="ca_objects.pbcoreDate.pbcoreDates_value"><H3>Date</H3>^ca_objects.pbcoreDate.pbcoreDates_value<br/></ifdef>}}}		
 				</div><!-- end col -->
 				<div class='col-sm-12 col-md-6 col-lg-6'>
 					{{{<ifdef code="ca_objects.pbcoreFormatLocation"><H3>Location:</H3>^ca_objects.pbcoreFormatLocation<br/></ifdef>}}}
@@ -127,7 +121,7 @@
 <?php
 					if($t_object->get("ca_objects.pbcoreDescription.pBdescription_text")){
 ?>
-						<HR class="dark"/><H3>Description <span class="transcript"><?php print $vs_transcript_link; ?></span></H3><br/><?php print $t_object->get("ca_objects.pbcoreDescription.pBdescription_text"); ?><br/>				
+						<HR class="dark"/><H3>Description<span class="transcript"><?php print $vs_transcript_link; ?></span></H3><?php print $t_object->get("ca_objects.pbcoreDescription.pBdescription_text"); ?>				
 <?php
 					}
 ?>
