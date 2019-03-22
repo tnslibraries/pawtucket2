@@ -1362,6 +1362,8 @@ a.browseRemoveFacet img {
 	background-color:transparent;
 	height: 45px;
 	margin-top: -30px;
+	margin-right: -70px;
+	margin-left: -70px;
 	padding-bottom: 20px;
 	padding-top: 10px;
 	text-align: center;
