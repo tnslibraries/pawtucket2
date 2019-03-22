@@ -21,22 +21,20 @@
 
 
 body {
-	font-size: 18px;
-	color:#454545; 
+	font-size: 18px; 
 	background-color:#FFFFFF; /*url ("http://library.newschool.edu/assets/img/SOM_NewSchool_JamesEwing_0138_1.jpg")*/
 }
 
 h1, h2{
-	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Neue',"Arial ",Helvetica,sans-serif;
+	font-size:18px;
+	line-height: 1.6;
 }
 h3, h4, h5, h6{
-	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif; 
+	font-family: 'Neue',"Arial ",Helvetica,sans-serif; 
 }
 
 	h2.front {
-		margin-left: 25px;
 		padding-bottom: 20px;
 		border-bottom: 1px solid lightgray;
 
@@ -138,8 +136,8 @@ H1{
 @media (min-width: 992px) {
 	#bs-main-navbar-collapse-1 ul li:first-child {
 		display:inline;
-		color:#333;
-		 line-height: 22px;
+		color:#000;
+		line-height: 22px;
 		padding-top: 8px;
 	}
 }
@@ -175,7 +173,7 @@ H1{
 
 
 .nslogotypesub{
-	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif; 
+	font-family: 'Neue Display',"Arial ",Helvetica,sans-serif; 
 	padding-top:35px;
 	/*padding-bottom:20px;*/
 	background-color: #ffffff;
@@ -213,11 +211,9 @@ H1{
 		font-weight:bold;
 	}
 	.nslogotypesub .kellen, .nslogotypesub .kellen a {
-		font-size:20px;
-		color:#666;
+		color:lightgrey;
 		font-weight:bold;
 		line-height:38px;
-		text-decoration:none;
 	}
 }
 @media (min-width: 1200px) {
@@ -231,7 +227,7 @@ H1{
 
 	.nslogotypesub .kellen, .nslogotypesub .kellen a {
 		font-size:30px;
-		color:#666;
+		color:lightgrey;
 		font-weight:bold;
 		line-height:38px;
 		text-decoration:none;
@@ -288,7 +284,7 @@ H1{
 }
 
 .navbar-default{
-	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+	font-family: 'Neue',"Arial ",Helvetica,sans-serif;
 	font-style: normal;
 	font-size:18px;
 }
@@ -325,13 +321,13 @@ H1{
 
 .nav > li > a {
 color:#666;
-font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+font-family: 'Neue',"Arial ",Helvetica,sans-serif;
 	font-size:16px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
     color: #000;
-    font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+    font-family: 'Neue',"Arial ",Helvetica,sans-serif;
 	font-size:16px;
 }
 	
@@ -607,8 +603,9 @@ li form {
 .front H1{
 	font-size:18px;
 	/*color:#E82E21;*/
-	font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
-	line-height:1.3;
+	font-family: 'Neue',"Arial ",Helvetica,sans-serif;
+	font-weight: bold;
+	line-height:1.6;
 	text-transform:none;
 	padding-top:15px;
 	/*margin-top:15px;*/
@@ -690,8 +687,8 @@ li form {
 	font-size:20px;}
 	
 .detail {
-	color:#4d4d4d;
-	font-size:16px;
+	font-size:18px;
+	line-height: 1.7;
 }
 .detail H1 {
 	font-size:24px;
@@ -786,7 +783,7 @@ li form {
     line-height:125%;
 }
 #bSortByList{
-	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+	font-family:'Neue',"Arial ",Helvetica,sans-serif;
 	text-transform:uppercase;
 }
 #bSortByList ul li{
@@ -849,7 +846,8 @@ li form {
 }
 .gallery H2{
 	margin-top:0px;
-	line-height: 1.5;
+	line-height: 1.6;
+	font-weight: normal;
 }
 .gallery-text {
 	margin: 15px;
@@ -869,7 +867,7 @@ li form {
 	color:#000;
 }
 .gallery .galleryListItem p{
-	color:#665E4C;
+	color:#000;
 	overflow:hidden;
 }
 .gallery .galleryListItem p.count{
@@ -894,7 +892,7 @@ li form {
 }
 @media (min-width: 768px) {
   	.gallery #galleryDetailObjectInfo {
-		height:450px;
+		height:650px;
   	}
   	.gallery #galleryDetailObjectInfo H7{
   		padding-right:40%;

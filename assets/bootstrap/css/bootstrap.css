@@ -68,11 +68,6 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b,
-strong {
-  font-weight: normal;
-}
-
 dfn {
   font-style: italic;
 }
@@ -390,8 +385,8 @@ hr {
 }
 
 p {
-  margin: 0px;
-  font-family: 'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+  font-family: 'Neue',"Arial ",Helvetica,sans-serif;
+  line-height: 1.7;
 }
 
 .lead {
@@ -1245,8 +1240,8 @@ pre code {
     position: relative;
     min-height: 1px;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-bottom-style: solid;
   }
 

@@ -17,7 +17,7 @@
 			print "<H3>".$t_set->getLabelForDisplay()."</H3>";
 			print "<p class='count'>".$t_set->getItemCount(array("checkAccess" => $va_access_values))." items</p>";
 			if($vs_description = $t_set->get($o_config->get('gallery_set_description_element_code'))){
-				print "<p class='gallery-text'><strong>".$vs_description."</strong></p>";
+				print "<p class='gallery-text'>".$vs_description."</p>";
 			}
 			print caNavLink($this->request, "<span class='glyphicon glyphicon-th-large'></span>", "", "", "Gallery", $t_set->get("set_id"))."&nbsp;&nbsp;".caNavLink($this->request, "<strong>"._t("VIEW GALLERY")."</strong>", "", "", "Gallery", $t_set->get("set_id"));
 			print "<div style='clear:both;'></div></div></div></div>\n";
