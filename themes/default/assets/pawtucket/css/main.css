@@ -22,7 +22,7 @@ a, a:active, a:focus {
 }
 
 H1, h1, H2, h2, H3, h3, H4, h4, H5, h5, H6, h6{
-	font-family: lato;
+	font-family: 'Neue';
 	font-weight: normal;
 	font-style: normal;
 }
@@ -77,7 +77,7 @@ label {
     margin-bottom: 5px;
     font-size:11px;
     text-transform:uppercase;
-    font-family:lato;
+    font-family:'Neue';
     font-weight:normal;
 }	
 .colBorderLeft{
@@ -305,7 +305,7 @@ h1 i {
 	-webkit-transition: none;
 		  transition: none;
 	background-color:transparent;
-	font-family:'neue',"Arial ",Helvetica,sans-serif;
+	font-family:'Neue',"Arial ",Helvetica,sans-serif;
 }
 .navbar .form-control:focus {
 	border: 0px;
@@ -448,7 +448,7 @@ h1 i {
 	padding-bottom:10px;
 	/*float:left;*/
 	padding-top:10px;
-	font-family:Lato;
+	font-family:'Neue';
 }
 
 .filterMenuFacetList ul{
@@ -690,7 +690,7 @@ div.browseMenuBrowseSearch input {
 }	
 .browseHeadernav a{
 	color:#666;
-	font-family:Lato;
+	font-family:'Neue';
 }
 a.browseRemoveFacet img {
 	margin-bottom: 3px;	
@@ -1346,7 +1346,7 @@ a.browseRemoveFacet img {
 @media (min-width: 768px) {
 	.front H1 {
 		font-size:28px;
-		font-family:LatoLight;
+		font-family:'Neue';
 		padding-top:15px;
 	}
 }
@@ -1830,7 +1830,7 @@ a.browseRemoveFacet .glyphicon {
 #bSortByList{
 	float:right;
 	margin-top:5px;
-	font-family:'itc_franklin_gothicmedium', "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2","Arial ",Helvetica,sans-serif;
+	font-family:'Neue',"Arial ",Helvetica,sans-serif;
 }
 #bSortByList ul {
 	list-style-type:none;
@@ -1952,7 +1952,7 @@ a.browseRemoveFacet .glyphicon {
     line-height: 1.2em;
 }
 .bResultItem .bResultItemText {
-    font-size: 11px;
+    font-size: 12px;
 }
 .bResultItem .bResultItemText small, .bResultItem .bResultItemText small a {
     color: #ABABAB;
@@ -2412,7 +2412,7 @@ a.browseRemoveFacet .glyphicon {
 	letter-spacing:1px;
 }
 .multisearch .pull-right {
-	font-family: arial;
+	font-family: 'Neue';
 }
 @media (max-width:500px) {
 	.jumpLinks, .sortValues {
@@ -2583,7 +2583,7 @@ a.browseRemoveFacet .glyphicon {
 .gallery .galleryNext, .gallery .galleryPrevious{
 	background-color: #EFEFEF;
     color: #666666;
-    font: 33px/1em Arial,sans-serif;
+    font: 33px/1em 'Neue',sans-serif;
     padding: 2px 12px 5px 12px;
     text-align: center;
     text-decoration: none;
@@ -2635,7 +2635,7 @@ a.browseRemoveFacet .glyphicon {
 .gallery .galleryDetailNext, .gallery .galleryDetailPrevious{
 	background-color: #EFEFEF;
     color: #666666;
-    font: 33px/1em Arial,sans-serif;
+    font: 33px/1em 'Neue',sans-serif;
     top: 130px;
     padding: 2px 12px 5px 12px;
     position: absolute;
@@ -2925,7 +2925,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
     background: url("data:image/png;charset=utf-8;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK8AAACvABQqw0mAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTM5jWRgMAAAFlSURBVCiRbY/NqqpgFIYfjxLiyEFCfyDZpElFRF5Pt1A3FN1BNyEqRATfSFAo+keCmuQn5PEMDsXZe59nuJ718q6lANxutzIMQ4QQ7HY7bNum1+vhui7ValXhH7Q0TcvlckkQBJ9hHMfEcczpdCJN09KyrE9IC8OQIAhot9uMRiM6nQ5JkrBarQjDkFqtxpcGIQQA4/EY13WpVCpYloWqqmy3W97+za/9fg/AYDDAMAx0XccwDPr9PgBv/wm0Wi0AoihC07S/tZpGFEUAvP0n0O12AfA8D9/3ybIM3/fxPA8Ax3G+/jAcDrler6zXa5Ik4TtCCO73e2mapgKgSCnLw+HAZrMhiiKOxyPNZhPHcRBCkKYp9Xqd2WyGaZqKAiClLLMsI89zXq8XmqahqiqPx4PFYsHlcqHRaDCdTtEAdF1XftwCPJ/PcjKZMJ/PkVIipeS/i2+KolDyPP99Pp8pigLbtvkDMDKl6nkCE08AAAAASUVORK5CYII=") no-repeat scroll 5px 5px #FFFFFF;
     border: 1px solid #ccc;
     display: block;
-    font-family: Arial;
+    font-family: 'Neue';
     font-size: 11px;
     line-height: 14px;
     margin: 2px 5px 0 0;
@@ -2994,7 +2994,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
     color: #666;
     display: inline;
     float: left;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'Neue',Arial,sans-serif;
     font-size: 10px;
     margin: 3px 0 0 6px;
     padding: 3px 16px 0 0;
@@ -3061,7 +3061,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
 }*/
 /*  TimelineJS	*/
 .vco-storyjs, .vco-storyjs p,.vco-storyjs blockquote,.vco-storyjs blockquote p,.vco-storyjs .twitter blockquote p, .vco-storyjs .vco-feature h1,.vco-storyjs .vco-feature h2,.vco-storyjs .vco-feature h3,.vco-storyjs .vco-feature h4,.vco-storyjs .vco-feature h5,.vco-storyjs .vco-feature h6{
-	font-family: arial !important;
+	font-family: 'Neue' !important;
 }
 .vco-storyjs h3{font-size:16px;line-height:18px}
 
@@ -3080,7 +3080,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
 	text-transform:uppercase;
 	color:#454545;
 	font-size:11px;
-	font-family:lato;	
+	font-family:'Neue';	
 }
 .advancedFormSubmit {
 	margin-bottom:20px;
@@ -3122,7 +3122,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
 	margin-top:20px;
 }
 .collHeader a{
-	font-family: lato;
+	font-family: 'Neue';
 	color: #414151;
 	font-size: 16px;
 }
@@ -3149,7 +3149,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
 }
 .collectionTile .title {
 	padding-bottom:10px;
-	font-family:lato;
+	font-family:'Neue';
 	
 }
 .collectionTile .title a {
@@ -3235,7 +3235,7 @@ div.caMediaOverlayRepThumbs a.selectedRep img{
   border-radius: 5px;
 }
 .threesixty .spinner span {
-  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-family: 'Neue', "MS Trebuchet", sans-serif;
   font-size: 12px;
   font-weight: bolder;
   color: #FFF;
