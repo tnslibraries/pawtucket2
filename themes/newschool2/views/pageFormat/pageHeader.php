@@ -12,7 +12,7 @@
 	<title><?php print ($vs_page_title = MetaTagManager::getWindowTitle()) ? $vs_page_title : "New School Archives : Digital Collections"; ?></title>
 	
 	<!--NS design-->
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!-- <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
 	<!--end NS design-->
 
 	<script type="text/javascript">
