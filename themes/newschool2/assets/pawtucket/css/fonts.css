@@ -36,7 +36,7 @@
 
 /* Neue-Bold */@font-face {
     font-family: 'Neue';
-    src: url('Neue/Neue-Bold.otf'); /* IE9 Compat Modes */
+    src: url('Neue-Bold.otf') format('opentype'); /* IE9 Compat Modes */
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -44,14 +44,14 @@
 
 /* Neue-BoldItalic */@font-face {
     font-family: 'Neue';
-    src: url('Neue/Neue-BoldItalic.otf');
+    src: url('Neue-BoldItalic.otf') format('opentype');
     font-style: italic;
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
 /* Neue-Italic */@font-face {
     font-family: 'Neue';
-    src: url('Neue/Neue-RegularItalic.otf');
+    src: url('Neue-RegularItalic.otf') format('opentype');
     font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -59,42 +59,42 @@
 
 /* Neue-Regular */@font-face {
     font-family: 'Neue';
-    src: url('Neue/Neue-Regular.otf');
+    src: url('Neue-Regular.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* Neue-Black */@font-face {
     font-family: 'Neue';
-    src: url('Neue/Neue-Black.otf');
+    src: url('Neue-Black.otf') format('opentype');
     font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Black */@font-face {
     font-family: 'Neue';
-    src: url('Neue/NeueDisplay-Black.otf');
+    src: url('NeueDisplay-Black.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Random */@font-face {
     font-family: 'Neue';
-    src: url('Neue/NeueDisplay-Random.otf');
+    src: url('NeueDisplay-Random.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Ultra */@font-face {
     font-family: 'Neue';
-    src: url('Neue/NeueDisplay-Ultra.otf');
+    src: url('NeueDisplay-Ultra.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Wide */@font-face {
     font-family: 'Neue';
-    src: url('Neue/NeueDisplay-Wide.otf');
+    src: url('NeueDisplay-Wide.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
