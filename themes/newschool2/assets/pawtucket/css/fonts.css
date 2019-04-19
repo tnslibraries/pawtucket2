@@ -35,66 +35,66 @@
 */
 
 /* Neue-Bold */@font-face {
-    font-family: 'Neue';
-    src: url('Neue-Bold.otf') format('opentype'); /* IE9 Compat Modes */
+    font-family: 'neue';
+    src: url('neue/neue-bold.otf') format('opentype'); /* IE9 Compat Modes */
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
 
 /* Neue-BoldItalic */@font-face {
-    font-family: 'Neue';
-    src: url('Neue-BoldItalic.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neue-bolditalic.otf') format('opentype');
     font-style: italic;
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
 /* Neue-Italic */@font-face {
-    font-family: 'Neue';
-    src: url('Neue-RegularItalic.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neue-regularitalic.otf') format('opentype');
     font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 
 /* Neue-Regular */@font-face {
-    font-family: 'Neue';
-    src: url('Neue-Regular.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neue-regular.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* Neue-Black */@font-face {
-    font-family: 'Neue';
-    src: url('Neue-Black.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neue-black.otf') format('opentype');
     font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Black */@font-face {
-    font-family: 'Neue';
-    src: url('NeueDisplay-Black.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neuedisplay-black.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Random */@font-face {
-    font-family: 'Neue';
-    src: url('NeueDisplay-Random.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neuedisplay-random.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Ultra */@font-face {
-    font-family: 'Neue';
-    src: url('NeueDisplay-Ultra.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neuedisplay-ultra.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 /* NeueDisplay-Wide */@font-face {
-    font-family: 'Neue';
-    src: url('NeueDisplay-Wide.otf') format('opentype');
+    font-family: 'neue';
+    src: url('neue/neuedisplay-wide.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
