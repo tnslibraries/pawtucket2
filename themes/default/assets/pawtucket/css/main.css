@@ -1767,7 +1767,7 @@ a.browseRemoveFacet img {
     height: auto;
     margin: 0px 0;
     padding: 5px;
-    width: 60%;
+    width: auto;
 }
 #detailRepresentationThumbnails a.active img{
 	background-color: #efefef;
