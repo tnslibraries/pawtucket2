@@ -5,6 +5,10 @@
 		SetEnv HTTP_MOD_REWRITE On
 	</IfModule>
 	
+	# Pass all requests to https
+	RewriteCond %{SERVER_PORT} 80 
+	RewriteRule ^(.*)$ https://digitalarchives.library.newschool.edu/$1 [R,L]
+	
 	# Pass all requests not referring directly 
 	# to files in the filesystem to index.php.
 	RewriteCond %{REQUEST_FILENAME} !-f
