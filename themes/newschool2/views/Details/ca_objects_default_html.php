@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?php
-	$t_object = $this->getVar("item");
-	$va_comments = $this->getVar("comments");
+	$t_object = $this->getVar("item"); 
+	$va_comments = $this->getVar("comments"); 
 	
 	
 	TooltipManager::add('#caDetailZoomLink', 'View Fullscreen');
@@ -23,7 +23,7 @@
 				<?php print caObjectRepresentationThumbnails($this->request, $this->getVar("representation_id"), $t_object, array("returnAs" => "bsCols", "linkTo" => "carousel", "bsColClasses" => "smallpadding col-sm-3 col-md-3 col-xs-4")); ?>
 				<div id="detailTools">
 					<div class="detailTool"><span class="glyphicon glyphicon-share-alt"></span>{{{shareLink}}}</div><!-- end detailTool -->
-					<div style="clear:both;"><!-- empty --></div>
+					<div style="clear:both; "><!-- empty --></div>
 				</div><!-- end detailTools -->
 			</div><!-- end col -->
 			
@@ -56,13 +56,16 @@
 					{{{<ifdef code="ca_objects.wtProofs"><H3>Work Type</H3>^ca_objects.wtProofs<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtThree"><H3>Work Type</H3>^ca_objects.wtThree<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtOther"><H3>Work Type</H3>^ca_objects.wtOther<br/></ifdef>}}}
+					{{{<ifdef code="ca_objects.wtAudiovisual"><H3>Work Type</H3>^ca_objects.wtAudiovisual<br/></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.measurementSet.measurements"><H3>Measurements</H3>^ca_objects.measurementSet.measurements <ifdef code="ca_objects.measurementSet.measurementsType">(^ca_objects.measurementSet.measurementsType)</ifdef></ifdef><ifdef code="ca_objects.measurementSet.measurements"> x </ifdef><ifdef code="ca_objects.measurementSet.measurements2">^ca_objects.measurementSet.measurements2 <ifdef code="ca_objects.measurementSet.measurementsType2">(^ca_objects.measurementSet.measurementsType2)</ifdef></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.descriptionSet.descriptionText"><H3>Description</H3>^ca_objects.descriptionSet.descriptionText<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.pbcoreDescription.pBdescription_text"><H3>Description</H3>^ca_objects.pbcoreDescription.pBdescription_text<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.pbcoreDescription.pBdescription_text%[pbcore_description_types=abstract]"><H3>Abstract</H3>^ca_objects.pbcoreDescription.pBdescription_text%[pbcore_description_types=abstract]<br/></ifdef>}}}
+					
 					{{{<ifdef code="ca_objects.inscriptionSet.inscriptionText"><H3>Inscription</H3>^ca_objects.inscriptionSet.inscriptionText<br/></ifdef>}}}
+
 					{{{<ifdef code="ca_objects.source"><H3>Source</H3>^ca_objects.source<br/></ifdef>}}}
 					{{{<ifcount code="ca_list_items" min="1" max="30"><h3>Related Terms</h3></ifcount>}}}
 <?php

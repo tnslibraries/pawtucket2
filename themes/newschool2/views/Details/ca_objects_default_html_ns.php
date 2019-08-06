@@ -54,9 +54,7 @@
 					{{{<ifdef code="ca_objects.wtProofs"><H3>Work Type:</H3>^ca_objects.wtProofs<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtThree"><H3>Work Type:</H3>^ca_objects.wtThree<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtOther"><H3>Work Type:</H3>^ca_objects.wtOther<br/></ifdef>}}}
-					
-					
-					
+					{{{<ifdef code="ca_objects.wtAudiovisual"><H3>Work Type:</H3>^ca_objects.wtAudiovisual<br/></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.measurementSet.measurements"><H3>Measurements:</H3>^ca_objects.measurementSet.measurements (^ca_objects.measurementSet.measurementsType)</ifdef><ifdef code="ca_objects.measurementSet.measurements,ca_objects.measurementSet.measurements"> x </ifdef><ifdef code="ca_objects.measurementSet.measurements2">^ca_objects.measurementSet.measurements2 (^ca_objects.measurementSet.measurementsType2)</ifdef>}}}
 					
@@ -64,8 +62,6 @@
 					{{{<ifdef code="ca_objects.containerID"><H3>Location of original:</H3>^ca_objects.containerID<br/></ifdef>}}}
 					
 					{{{<ifdef code="ca_objects.descriptionSet.descriptionText"><H3>Description:</H3>^ca_objects.descriptionSet.descriptionText<br/></ifdef>}}}
-					
-					
 					
 					
 					
