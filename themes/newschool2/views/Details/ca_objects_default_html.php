@@ -18,6 +18,10 @@
 	<div class='col-xs-10 col-sm-10 col-md-10 col-lg-10'>
 		<div class="container"><div class="row">
 			<div class='object-container'>
+				
+				<H1>{{{<unit delimiter=" ➔ " relativeTo="ca_collections"><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
+				<H2>{{{<unit>^ca_objects.type_id</unit>}}}</H2>
+
 				{{{representationViewer}}}
 				
 				<?php print caObjectRepresentationThumbnails($this->request, $this->getVar("representation_id"), $t_object, array("returnAs" => "bsCols", "linkTo" => "carousel", "bsColClasses" => "smallpadding col-sm-3 col-md-3 col-xs-4")); ?>
@@ -28,8 +32,8 @@
 			</div><!-- end col -->
 			
 			<div class='object-container'>
-				<H1>{{{<unit delimiter=" ➔ " relativeTo="ca_collections"><unit relativeTo="ca_collections.hierarchy"><l>^ca_collections.preferred_labels.name</l></unit></unit><ifcount min="1" code="ca_collections"> ➔ </ifcount>}}}{{{ca_objects.preferred_labels.name}}}</H1>
-					<H2>{{{<unit>^ca_objects.type_id</unit>}}}</H2>
+				
+					
 					<HR>
 					
 					{{{<ifdef code="ca_objects.nonpreferred_labels.name"><H3>Alternate Title</H3>^ca_objects.nonpreferred_labels.name</ifdef>}}}
