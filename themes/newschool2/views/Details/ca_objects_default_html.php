@@ -36,13 +36,11 @@
 					
 					<HR>
 					
-					{{{<ifdef code="ca_objects.nonpreferred_labels.name"><H3>Alternate Title</H3>^ca_objects.nonpreferred_labels.name</ifdef>}}}
-					{{{<ifcount code="ca_objects.nonpreferred_labels.name" min="1"><unit relativeTo="ca_objects.nonpreferred_labels.name" delimiter="<br/>"><l>^ca_objects.nonpreferred_labels.name</l> (^relationship_typename)</unit></ifcount>}}}
+					{{{<ifcount code="ca_objects.nonpreferred_labels.name" min="1"><unit relativeTo="ca_objects.nonpreferred_labels.name" delimiter="<br/>"><l><H3>Alternate Title</H3>^ca_objects.nonpreferred_labels.name</l> (^relationship.type_id)</unit></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="1" max="1"><H3>Related person/organization</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="2"><H3>Related people/organizations</H3></ifcount>}}}
 					{{{<ifcount code="ca_entities" min="1"><unit relativeTo="ca_entities" delimiter="<br/>"><l>^ca_entities.preferred_labels</l> (^relationship_typename)</unit></ifcount>}}}
 					{{{<ifdef code="ca_objects.dateSet.setDisplayValue"><H3>Date</H3>^ca_objects.dateSet.setDisplayValue<br/></ifdef>}}}
-					{{{<ifdef code="ca_objects.pbcoreDate.pbcoreDates_value"><H3>Date</H3>^ca_objects.pbcoreDate.pbcoreDates_value<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtDrawings"><H3>Work Type</H3>^ca_objects.wtDrawings<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtPhotographic"><H3>Work Type</H3>^ca_objects.wtPhotographic<br/></ifdef>}}}
 					{{{<ifdef code="ca_objects.wtPosters"><H3>Work Type</H3>^ca_objects.wtPosters<br/></ifdef>}}}
