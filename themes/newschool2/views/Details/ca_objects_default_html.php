@@ -84,7 +84,7 @@
 
 					{{{<ifdef code="ca_objects.idno"><H3>Identifier</H3>^ca_objects.idno<br/></ifdef>}}}
 					
-					{{{<h3>Citation</h3><unit relativeTo="ca_entities" restrictToRelationshipTypes="architect,artist,sculptor,author,compiler,designer,cartographer,composer,filmmaker,interviewee,interviewer,photographer,publisher" delimiter="; ">^ca_entities.preferred_labels.displayname</unit><ifcount code="ca_entities" restrictToRelationshipTypes="architect,artist,sculptor,author,compiler,designer,cartographer,composer,filmmaker,interviewee,interviewer,photographer,publisher" min="1">. </ifcount><i><unit>^ca_objects.preferred_labels.name</unit>. </i><ifdef code="ca_objects.dateSet.setDisplayValue"><unit>^ca_objects.dateSet.setDisplayValue</unit>. </ifdef><ifcount code="ca_collections" min="1" max="1"><unit>^ca_collections.hierarchy.preferred_labels.name</unit>. </ifcount><i>New School Archives and Special Collections Digital Archive</i>. Web. <font>^DATE</font>.}}}
+					
 					{{{<h3>Use Restrictions</h3><ifcount code="ca_collections" min="1" max="1"><unit relativeTo="ca_collections">^ca_collections.CollectionNote.NoteContent%[NoteType=conditions_governing_use]</unit></ifcount>}}}
 					
 					<br><br>
