@@ -67,7 +67,8 @@ print $this->render("Front/featured_set_slideshow_html.php");
 			<h2 class="front"><a href="/index.php/Gallery/578">NEW SCHOOL PUBLICATIONS</a>
 			<h2 class="front"><a href="/index.php/Gallery/789">ORAL HISTORY COLLECTIONS</a>
 			<h2 class="front"><a href="/index.php/Gallery/306">THESIS COLLECTIONS</a><br>
-			Collections of digital theses submited by MFA students.</h2>
+			Collections of theses submitted by master's degree students from a range of programs at The New School.
+</h2>
 
 		</div>
 		<!--end col-sm-7-->
